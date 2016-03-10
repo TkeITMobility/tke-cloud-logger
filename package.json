@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bunyan": "^1.7.1",
+    "cron-master": "^0.2.0",
     "lodash.map": "^4.2.1",
     "mongo-utils": "git+https://github.com/evanshortiss/mongo-utils.git#0.2.0",
     "xtend": "^4.0.1"
