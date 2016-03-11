@@ -2,13 +2,13 @@
 
 var log = require('../lib/logger.js');
 
-var logger = log.getLogger({
-  name: __filename
-});
+var logger = log.getLogger(__filename);
 
-logger.trace('trace');
-logger.debug('debug');
-logger.info('info');
-logger.warn('warn');
-logger.error('error');
-logger.fatal('fatal');
+var obj = {foo: true};
+var err = new Error('test error');
+logger.trace('trace', obj);
+logger.debug('debug', obj);
+logger.info('info', obj);
+logger.warn('warn', obj);
+logger.error(err, 'error', obj);
+logger.fatal(err, 'fatal', obj);
