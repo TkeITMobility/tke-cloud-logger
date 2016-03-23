@@ -1,6 +1,6 @@
 {
   "name": "tke-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A thin wrapper around bunyan that provides sensible logging defaults",
   "main": "lib/logger.js",
   "scripts": {
