@@ -1,6 +1,6 @@
 {
   "name": "tke-logger",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "A thin wrapper around bunyan that provides sensible logging defaults",
   "main": "lib/logger.js",
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "author": "Evan Shortiss",
   "license": "Copyright ThyssenKrupp 2016",
+  "typings": "index.d.ts",
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.2",
@@ -20,6 +21,7 @@
     "sinon": "^1.17.3"
   },
   "dependencies": {
+    "@types/bunyan": "^1.8.4",
     "bunyan": "^1.7.1",
     "cron-master": "^0.3.0",
     "lodash.map": "^4.2.1",
