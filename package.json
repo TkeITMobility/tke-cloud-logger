@@ -1,32 +1,13 @@
 {
   "name": "tke-logger",
-  "version": "0.6.0",
-  "description": "A thin wrapper around bunyan that provides sensible logging defaults",
-  "main": "lib/logger.js",
-  "scripts": {
-    "check-coverage": "istanbul check-coverage --statements 90 --branches 90 --functions 90 --lines 90",
-    "unit": "env NODE_PATH=test istanbul cover -x *.test.js _mocha $(find ./lib/ -name \"*.test.js\")",
-    "test": "npm run unit && npm run check-coverage"
-  },
-  "author": "Evan Shortiss",
+  "version": "1.0.0",
+  "description": "A thin wrapper around bunyan that provides sensible logging defaults and better formatting",
+  "main": "lib/index.js",
   "license": "Copyright ThyssenKrupp 2016",
   "typings": "index.d.ts",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "istanbul": "^0.4.2",
-    "jshint": "^2.9.1",
-    "linelint": "^1.0.0",
-    "mocha": "^2.4.5",
-    "proxyquire": "^1.7.4",
-    "sinon": "^1.17.3"
-  },
   "dependencies": {
-    "@types/bunyan": "^1.8.4",
-    "bunyan": "^1.7.1",
-    "cron-master": "^0.3.0",
-    "lodash.map": "^4.2.1",
-    "mongo-utils": "git+https://github.com/evanshortiss/mongo-utils.git#0.2.0",
-    "verror": "^1.6.1",
-    "xtend": "^4.0.1"
+    "@types/bunyan": "1.8.4",
+    "bunyan": "1.8.12",
+    "bunyan-format": "0.2.1"
   }
 }
