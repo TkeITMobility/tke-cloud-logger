@@ -1,6 +1,6 @@
 {
   "name": "tke-logger",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A thin wrapper around bunyan that provides sensible logging defaults and better formatting",
   "main": "lib/index.js",
   "license": "Copyright ThyssenKrupp 2016",
